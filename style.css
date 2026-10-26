@@ -1,0 +1,94 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: sans-serif;
+}
+
+body {
+  background-color: #f7f9fa;
+  color: #222;
+  padding: 30px 20px;
+}
+
+.cabeceraTienda {
+  max-width: 1000px;
+  margin: 0 auto 30px auto;
+  padding-bottom: 15px;
+  border-bottom: 2px solid #e1e4e8;
+  
+}
+
+button{
+  margin: 10px;
+  padding: 1px 8px;
+}
+
+.cabeceraTienda h1 {
+  font-size: 26px;
+  color: #1a1a1a;
+  text-align: center;
+}
+
+.contenedorPrincipal {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  gap: 25px;
+  align-items: flex-start;
+}
+
+.seccionProductos {
+  flex: 2;
+  background-color: #ffffff;
+  border: 1px solid #e1e4e8;
+  border-radius: 6px;
+  padding: 20px;
+}
+
+.tablaProductos {
+  width: 100%;
+  border-collapse: collapse;
+  padding-bottom: 15px;
+  table-layout: fixed;
+}
+
+.tablaProductos th, .vistaProductos td {
+  text-align: center;
+  padding: 10px;
+  font-size: 14px;
+  color: #555;
+  border-bottom: 1px solid #e1e4e8;
+}
+
+.entradaCantidad{
+  width: 20%;
+  text-align: center;
+}
+
+.panelTotal {
+  flex: 1;
+  background-color: #ffffff;
+  border: 1px solid #e1e4e8;
+  border-radius: 6px;
+  padding: 20px;
+}
+
+.panelTotal h2 {
+  font-size: 18px;
+  margin-bottom: 15px;
+  color: #1a1a1a;
+}
+
+.panelTotal hr {
+  border: 0;
+  border-top: 1px solid #e1e4e8;
+  margin: 20px 0;
+}
+
+.filaTotal {
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+  font-size: 16px;
+  color: #1a1a1a;
+}
